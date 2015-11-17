@@ -134,4 +134,4 @@ class Banana extends Element\Div
 There are instances when the object you are creating could be rendered as one of many element tags.
 Bootstrap 3 Buttons for example could be: `<a>` or `<button>`.
 
-In this case extend Element directly, accept the tag as a parameter, and set the objects->tag property equal to that.
+In this case extend AbstractElement, accept the tag as a parameter to set tag property.
